@@ -1,0 +1,44 @@
+{
+  "Anurag.gorb": {
+    "username": "Anurag",
+    "domain": "Anurag.gorb",
+    "address": "HZm219EhHpKstsfuvTtex3RSKUE9duyhp92cYFWM23u6",
+    "metadataUrl": "https://arweave.net/Anurag-profile.json",
+    "metadata": {
+      "name": "Anurag",
+      "description": "Anurag's .gorb domain",
+      "image": "https://arweave.net/Anurag-avatar.png",
+      "attributes": [
+        {
+          "trait_type": "Role",
+          "value": "User"
+        },
+        {
+          "trait_type": "Registered",
+          "value": "2025-08-05T09:43:11.541Z"
+        }
+      ]
+    }
+  },
+  "Rachit.gorb": {
+    "username": "Rachit",
+    "domain": "Rachit.gorb",
+    "address": "79p6wottACQsNnD78xTk2WJwdiSjRxqabX7qqzLC631X",
+    "metadataUrl": "https://arweave.net/Rachit-profile.json",
+    "metadata": {
+      "name": "Rachit",
+      "description": "Rachit's .gorb domain",
+      "image": "https://arweave.net/Rachit-avatar.png",
+      "attributes": [
+        {
+          "trait_type": "Role",
+          "value": "User"
+        },
+        {
+          "trait_type": "Registered",
+          "value": "2025-08-05T09:43:11.542Z"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-07-31T16:17:37.576Z",
+  "network": "Gorbchain",
+  "programId": "CySCGJK9kNNqM2eQSW9hGQ1FCZ51ZHetRfGsTLY1TTe9",
+  "company": {
+    "address": "GiGADPr1aThAUJDGnRS6KU9P5SbJ23E9qMUqWoXP1vGJ",
+    "balance": 5.68076464,
+    "domain": "company.sol"
+  },
+  "employee": {
+    "address": "DrQc8UH7a2zBKxFwtAeV3wnz34ZFox7jH5M29D2B6u2R",
+    "keypairFile": "/home/saurabh/Desktop/solana_naming_service/sns-registrar-master (10)/program/employee-keypair.json",
+    "balance": 0.1,
+    "domain": "employee.sol",
+    "metadataUrl": "https://arweave.net/employee-DrQc8UH7.json"
+  },
+  "transactions": {
+    "transfer": {
+      "signature": "5R6RXA8RbBtSbCQ1sPXJuRQckKXVwzEFsqbfSDzvZJh6hKy5dPFUHfXQ7bqtms3qyHhvhQ2vbcPt1EK3ntamjrue",
+      "amount": 0.1,
+      "from": "GiGADPr1aThAUJDGnRS6KU9P5SbJ23E9qMUqWoXP1vGJ",
+      "to": "DrQc8UH7a2zBKxFwtAeV3wnz34ZFox7jH5M29D2B6u2R"
+    }
+  },
+  "nextSteps": [
+    "Register domain using SNS program",
+    "Set up metadata URL for employee profile",
+    "Configure domain permissions",
+    "Test domain resolution"
+  ]
+}

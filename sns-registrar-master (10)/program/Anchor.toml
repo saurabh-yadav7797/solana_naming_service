@@ -1,0 +1,14 @@
+anchor_version = "0.25.0"
+
+
+[workspace]
+members = ["./"]
+
+
+[provider]
+cluster = "https://rpc.gorbchain.xyz"
+wallet = "~/.config/solana/my-keypair.json"
+
+
+[programs.devnet]
+sns-registrar = "CySCGJK9kNNqM2eQSW9hGQ1FCZ51ZHetRfGsTLY1TTe9"
