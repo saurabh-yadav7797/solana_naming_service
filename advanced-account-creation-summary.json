@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-31T16:27:24.414Z",
+  "network": "Gorbchain",
+  "programId": "CySCGJK9kNNqM2eQSW9hGQ1FCZ51ZHetRfGsTLY1TTe9",
+  "company": {
+    "address": "GiGADPr1aThAUJDGnRS6KU9P5SbJ23E9qMUqWoXP1vGJ",
+    "balance": 5.58075964,
+    "domain": "company.sol"
+  },
+  "employee": {
+    "address": "CiXjSYwMf5xZsW7qUawuRAjZG7wbSBuKtmVVe6htREuz",
+    "keypairFile": "/home/saurabh/Desktop/solana_naming_service/employee-keypair.json",
+    "balance": 0.1,
+    "domain": "employee.sol",
+    "metadataUrl": "https://arweave.net/employee-CiXjSYwM.json",
+    "domainAccount": "Csh7xByKgcDWyUmYGRVgUdNmQR53VC7hEbnmUDcLPcqe",
+    "reverseLookupAccount": "3vxZjadNfCt2qXD1CZE5JhshkFq2hv9hEFLS4uXwiuqU"
+  },
+  "transactions": {
+    "transfer": {
+      "signature": "3VsBQm1tL1417jRHVGmZ9nWnUja1iuqfk8vJiUisXBewrR9b1EQgVMhbMeBYV2bjtp5SciKNGNXe8C1n9pgqZWbV",
+      "amount": 0.1,
+      "from": "GiGADPr1aThAUJDGnRS6KU9P5SbJ23E9qMUqWoXP1vGJ",
+      "to": "CiXjSYwMf5xZsW7qUawuRAjZG7wbSBuKtmVVe6htREuz"
+    }
+  },
+  "metadata": {
+    "name": "Employee Profile",
+    "description": "Employee domain registration with metadata",
+    "image": "https://arweave.net/employee-avatar.png",
+    "attributes": [
+      {
+        "trait_type": "Role",
+        "value": "Employee"
+      },
+      {
+        "trait_type": "Department",
+        "value": "Engineering"
+      },
+      {
+        "trait_type": "Start Date",
+        "value": "2025-07-31"
+      }
+    ]
+  },
+  "nextSteps": [
+    "Execute domain registration transaction",
+    "Upload metadata to Arweave",
+    "Verify domain resolution",
+    "Test metadata retrieval"
+  ]
+}

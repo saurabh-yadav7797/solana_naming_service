@@ -1,0 +1,44 @@
+{
+  "network": "gorbchain",
+  "rpcEndpoint": "https://rpc.gorbchain.xyz",
+  "wsEndpoint": "wss://rpc.gorbchain.xyz/ws/",
+  "cluster": "gorbchain",
+  "commitment": "confirmed",
+  "programId": "CHgtmD84n8CA2kvJaBMk3UZwvkMGGfptysJSd3AwVoE",
+  "features": {
+    "devnet": true,
+    "gorbchain": true
+  },
+  "deployment": {
+    "authority": "5Cnypn1cuYEL4GAWh3eAMe2Pn9YDQdEJdrr94sJVum5p",
+    "keypairPath": "~/.config/solana/my-keypair.json",
+    "programBinary": "target/deploy/sns_registrar.so",
+    "programKeypair": "target/deploy/sns_registrar-keypair.json"
+  },
+  "constants": {
+    "vaultOwner": "SNSaTJbEv2iT3CUrCQYa9zpGjbBVWhFCPaSJHkaJX34",
+    "rootDomainAccount": "5eoDkP6vCQBXqDV9YN2NdUs3nmML3dMRNmEYpiyVNBm2",
+    "admin": "SNSaTJbEv2iT3CUrCQYa9zpGjbBVWhFCPaSJHkaJX34",
+    "referrerFeesPct": 5,
+    "fees": [500, 300, 200, 150, 100],
+    "feeTiers": [500000000, 5000000000, 20000000000, 40000000000]
+  },
+  "tokens": {
+    "USDC": {
+      "mint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "decimals": 6
+    },
+    "USDT": {
+      "mint": "EJwZgeZrdC8TXTQbQBoL6bfuAnFUUy1PVCMB4DYPzVaS",
+      "decimals": 6
+    },
+    "SOL": {
+      "mint": "So11111111111111111111111111111111111111112",
+      "decimals": 9
+    },
+    "FIDA": {
+      "mint": "fidaWCioBQjieRrUQDxxS5Uxmq1CLi2VuVRyv4dEBey",
+      "decimals": 6
+    }
+  }
+} 

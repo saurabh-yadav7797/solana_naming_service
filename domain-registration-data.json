@@ -1,0 +1,26 @@
+{
+  "domainName": "employee.sol",
+  "owner": "CiXjSYwMf5xZsW7qUawuRAjZG7wbSBuKtmVVe6htREuz",
+  "metadataUrl": "https://arweave.net/employee-CiXjSYwM.json",
+  "registrationDate": "2025-07-31T16:27:24.407Z",
+  "programId": "CySCGJK9kNNqM2eQSW9hGQ1FCZ51ZHetRfGsTLY1TTe9",
+  "metadata": {
+    "name": "Employee Profile",
+    "description": "Employee domain registration with metadata",
+    "image": "https://arweave.net/employee-avatar.png",
+    "attributes": [
+      {
+        "trait_type": "Role",
+        "value": "Employee"
+      },
+      {
+        "trait_type": "Department",
+        "value": "Engineering"
+      },
+      {
+        "trait_type": "Start Date",
+        "value": "2025-07-31"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "domainName": "employee.sol",
+  "domainAccount": "Csh7xByKgcDWyUmYGRVgUdNmQR53VC7hEbnmUDcLPcqe",
+  "reverseLookupAccount": "3vxZjadNfCt2qXD1CZE5JhshkFq2hv9hEFLS4uXwiuqU",
+  "owner": "CiXjSYwMf5xZsW7qUawuRAjZG7wbSBuKtmVVe6htREuz",
+  "metadataUrl": "https://arweave.net/employee-CiXjSYwM.json",
+  "registrationFee": 0.01,
+  "instructions": [
+    "Create domain account using SPL Name Service",
+    "Set up reverse lookup with metadata URL",
+    "Transfer domain ownership to employee",
+    "Store metadata on Arweave"
+  ]
+}

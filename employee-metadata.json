@@ -1,0 +1,19 @@
+{
+  "name": "Employee Profile",
+  "description": "Employee domain registration with metadata",
+  "image": "https://arweave.net/employee-avatar.png",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "Employee"
+    },
+    {
+      "trait_type": "Department",
+      "value": "Engineering"
+    },
+    {
+      "trait_type": "Start Date",
+      "value": "2025-07-31"
+    }
+  ]
+}
